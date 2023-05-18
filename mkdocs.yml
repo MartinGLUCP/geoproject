@@ -81,6 +81,7 @@ nav:
     - Report Issues: https://github.com/MartinGLUCP/geoproject/issues
     - Examples:
         - examples/intro.ipynb
+        - examples/folium.ipynb
     - API Reference:
           - geoproject module: geoproject.md
           - common module: common.md
