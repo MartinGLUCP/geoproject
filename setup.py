@@ -27,7 +27,7 @@ test_requirements = [ ]
 setup(
     author="Martin Guilbert Lejeune",
     author_email='mguilbertlejeune@gmail.com',
-    python_requires='>=3.8',
+    python_requires='>=3.7',
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
