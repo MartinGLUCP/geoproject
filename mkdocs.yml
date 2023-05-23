@@ -90,4 +90,3 @@ nav:
     - API Reference:
           - geoproject module: geoproject.md
           - foliumap module: foliumap.md
-          - common module: common.md

@@ -1,4 +1,4 @@
  
 # foliumap module
 
-::: foliumap.foliumap
+::: geoproject.foliumap
