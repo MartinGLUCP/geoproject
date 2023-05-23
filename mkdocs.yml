@@ -86,7 +86,7 @@ nav:
         - examples/ipywidgets_box.ipynb
         - examples/ipywidgets_events.ipynb
         - examples/ipywidgets.ipynb
-        - examples/toolbart.ipynb
+        - examples/toolbar.ipynb
     - API Reference:
           - geoproject module: geoproject.md
           - foliumap module: foliumap.md
