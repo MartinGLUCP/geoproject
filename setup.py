@@ -27,16 +27,12 @@ test_requirements = [ ]
 setup(
     author="Martin Guilbert Lejeune",
     author_email='mguilbertlejeune@gmail.com',
-    python_requires='>=3.7',
+    python_requires='>=3.8',
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10',
-        'Programming Language :: Python :: 3.11',
     ],
     description="A python package for interactive mapping and more.",
     install_requires=install_requires,
