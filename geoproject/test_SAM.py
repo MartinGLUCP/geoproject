@@ -9,7 +9,6 @@ print("CUDA is available:", torch.cuda.is_available())
 # https://github.com/facebookresearch/segment-anything#model-checkpoints
 
 import numpy as np
-import torch
 import matplotlib.pyplot as plt
 import cv2
 
