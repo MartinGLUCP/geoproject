@@ -1,5 +1,8 @@
 import folium
-
+"""
+Re-implementation of folium, to familiarize myself with module creation.
+Works with webapp. see doc.
+"""
 class Map(folium.Map):
 
     """Create a folium map object.

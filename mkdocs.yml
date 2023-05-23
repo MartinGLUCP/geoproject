@@ -83,7 +83,10 @@ nav:
         - examples/intro.ipynb
         - examples/folium.ipynb
         - examples/ipyleaflet.ipynb
-        - examples/geoproject.ipynb
+        - examples/ipywidgets_box.ipynb
+        - examples/ipywidgets_events.ipynb
+        - examples/ipywidgets.ipynb
+        - examples/toolbart.ipynb
     - API Reference:
           - geoproject module: geoproject.md
           - foliumap module: foliumap.md

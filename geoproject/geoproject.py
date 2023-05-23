@@ -1,11 +1,16 @@
-"""Main module."""
+"""
+Main module.
+Reimplemented ipyleaflet, to familiarize myself with module creation.
+Works with notebook, otherwise use Foliumap for webapp.
+"""
 
 import string
 import random
 import ipyleaflet
 import ipywidgets as widgets
+
 class Map(ipyleaflet.Map):
-   
+
     def __init__(self, center=[48,2], zoom=2, **kwargs) -> None:
         if "scroll_wheel_zoom" not in kwargs:
             kwargs["scroll_wheel_zoom"] = True
@@ -280,6 +285,7 @@ class Map(ipyleaflet.Map):
 
         self.add_control(toolbar_ctrl)
 
+#These are just basic fonction to test the module
 def generate_random_string(length):
     """Generate random string"""
     characters = string.ascii_letters + string.digits  # Includes both uppercase and lowercase letters, and digits
