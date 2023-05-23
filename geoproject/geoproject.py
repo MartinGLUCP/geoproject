@@ -285,7 +285,7 @@ class Map(ipyleaflet.Map):
 
         self.add_control(toolbar_ctrl)
 
-#These are just basic fonction to test the module
+#These are just basic function to test the module
 def generate_random_string(length):
     """Generate random string"""
     characters = string.ascii_letters + string.digits  # Includes both uppercase and lowercase letters, and digits
