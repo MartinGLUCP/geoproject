@@ -12,8 +12,9 @@ with open('README.md') as readme_file:
 here = op.abspath(op.dirname(__file__))
 
 # get the dependencies and installs
-with io.open(op.join(here, "requirements.txt"), 'encoding="utf-16"') as f:
-    all_reqs = f.read().split("\n")
+with io.open(op.join(here, "requirements.txt"), encoding="utf-16") as f:
+    all_reqs = f.read().split()
+
 
 install_requires = [x.strip() for x in all_reqs if "git+" not in x]
 dependency_links = [x.strip().replace("git+", "") for x in all_reqs if "git+" not in x]
